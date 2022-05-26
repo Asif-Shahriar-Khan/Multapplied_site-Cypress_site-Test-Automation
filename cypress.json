@@ -1,0 +1,15 @@
+{
+    "viewportWidth": 1100,
+    "viewportHeight": 850,
+
+
+    "reporter": "cypress-mochawesome-reporter",
+    "reporterOptions": {
+    "reportDir": "cypress/reports",
+    "charts": true,
+    "reportPageTitle": "My Test Suite",
+    "embeddedScreenshots": true,
+    "inlineAssets": true
+  },
+  "video": true
+  }

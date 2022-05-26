@@ -1,0 +1,167 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 2,
+    "failures": -2,
+    "start": "2022-02-01T10:41:07.695Z",
+    "end": "2022-02-01T10:41:20.874Z",
+    "duration": 13179,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 50,
+    "other": 2,
+    "hasOther": true,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "17f67b8a-783e-435c-8c9e-b15ae16df439",
+      "title": "",
+      "fullFile": "cypress/integration/CypressTestF2.js",
+      "file": "cypress/integration/CypressTestF2.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "41abc1d2-4245-47aa-a211-ad61eea7ee33",
+          "title": "Cypress Newsletter Subscription Test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Go to Cypress Whats New Page",
+              "fullTitle": "Cypress Newsletter Subscription Test Go to Cypress Whats New Page",
+              "timedOut": null,
+              "duration": 8323,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://www.cypress.io/whats-new');\ncy.scrollTo('bottom');",
+              "err": {},
+              "uuid": "dc6c3790-893c-4e14-a8c9-9a996758ba6b",
+              "parentUUID": "41abc1d2-4245-47aa-a211-ad61eea7ee33",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Subscribe with valid email",
+              "fullTitle": "Cypress Newsletter Subscription Test Subscribe with valid email",
+              "timedOut": null,
+              "duration": 0,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "56a88a53-feb1-4af3-9559-a93ee0ede7b6",
+              "parentUUID": "41abc1d2-4245-47aa-a211-ad61eea7ee33",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Subscribe with invalid email",
+              "fullTitle": "Cypress Newsletter Subscription Test Subscribe with invalid email",
+              "timedOut": null,
+              "duration": 0,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "c28b607c-dca0-42d2-baff-a34d9a240367",
+              "parentUUID": "41abc1d2-4245-47aa-a211-ad61eea7ee33",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Subscribe with invalid email",
+              "fullTitle": "Cypress Newsletter Subscription Test Subscribe with invalid email",
+              "timedOut": null,
+              "duration": 2713,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('#input-footer-email').type('asif-w3engineers.com');\ncy.get('.styled__Submit-sc-10l91w3-12').click();",
+              "err": {},
+              "uuid": "6c0b4185-fd50-4331-a27b-5b9bb0f336e4",
+              "parentUUID": "41abc1d2-4245-47aa-a211-ad61eea7ee33",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "dc6c3790-893c-4e14-a8c9-9a996758ba6b",
+            "6c0b4185-fd50-4331-a27b-5b9bb0f336e4"
+          ],
+          "failures": [],
+          "pending": [
+            "56a88a53-feb1-4af3-9559-a93ee0ede7b6",
+            "c28b607c-dca0-42d2-baff-a34d9a240367"
+          ],
+          "skipped": [],
+          "duration": 11036,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports/.jsons",
+        "charts": true,
+        "reportPageTitle": "My Test Suite",
+        "embeddedScreenshots": true,
+        "inlineAssets": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}
